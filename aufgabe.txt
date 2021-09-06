@@ -1,0 +1,40 @@
+Hallo Herr Teker,
+ 
+
+wir würden Sie gern folgende Aufgabenstellung lösen lassen, um unser Bild von Ihrem Know How zu vervollständigen.
+Bitte schicken Sie uns im Vorfeld eine Zeitschätzung für die Bereitstellung der Lösungsanforderung und bis wann wir mit dem Ergebnis rechnen können.
+
+Bei Fragen können Sie mich gern mobil oder per Mail kontaktieren.
+
+
+Hintergrund/Zielsetzung:
+Es soll eine Monitoring-App implementiert werden.
+
+
+Funktionale Anforderung:
+Die Anwendung soll in regelmäßigen Abständen eine Liste der Server-URLs prüfen. Als Ergebnis soll eine zweispaltige Tabelle dargestellt werden.
+In der ersten Spalte soll der jeweile Server-Name und in der zweiten Spalte das Ergebins der Prüfung angezeigt werden.
+
+
+Technische Hinweise:
+Gewünscht ist eine einfache WebAnwendung, es kann aber auch eine Desktop-Anwendung (z.B. Swing) oder eine Consolen-Anwendung sein.
+
+- Das Frontend-Framework kann frei gewählt werden
+- Der serverseitige Anteil (im Falle einer WebAnwendung) sollte mit Java umgesetzt werden
+- Eigene Ansprüche an die Code-Qualität sind zu berücksichtigen
+- Bei der Wahl zu benutzender Klassen und Bibliotheken: feel free.
+
+
+Ergebnisse:
+- Bitte den Quellcode und die Anwendung als war- oder jar-File (ggf. funktionierendes Dockerfile) per Mail, gezippt an mich zurück
+- Bitte angeben wie lange Sie ungefähr gebraucht haben
+
+
+
+Viele Grüße 
+Ivica Spisic
+
+Ivica Spisic | JUNIQ IT-Services GmbH | Mobil: +49 151 67677700 | Web:  www.juniq-it.de | Geschäftsführer: Dr. Christian Bartling, Hubertus Bergmann, Ivica Spisic | Handelsregister: Amtsgericht München, HRB 231150
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <form action="#" th:action="@{/save}" th:object="${form}" method="post">
+      <fieldset>
+        <input type="submit" id="submitButton" th:value="Save" />
+        <input type="reset" id="resetButton" name="reset" th:value="Reset" />
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr th:each="server, itemStat : *{servers}">
+              <td>
+                <input
+                  th:field="*{servers[__${itemStat.index}__].serverName}"
+                />
+              </td>
+              <td>
+                <input
+                  th:field="*{servers[__${itemStat.index}__].serverAddress}"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script src="" async defer></script>
+  </body>
+</html>
